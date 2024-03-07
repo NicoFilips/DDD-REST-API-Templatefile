@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "",
+  "classifications": ["Web", "API", "DDD"],
+  "identity": "Company.DDDRESTAPI.Template",
+  "name": "DDD REST API Template",
+  "shortName": "dddrestapitemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DDD-REST-API-Templatefile",
+  "preferNameDirectory": true,
+  "symbols": {
+    "company": {
+      "type": "parameter",
+      "replaces": "MeineFirma",
+      "defaultValue": "MyCompany",
+      "description": "The name of the company."
+    },
+    "projectName": {
+      "type": "parameter",
+      "replaces": "MyProject",
+      "defaultValue": "MyProject",
+      "description": "The name of the project."
+    }
+  }
+}
